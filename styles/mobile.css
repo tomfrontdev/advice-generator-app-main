@@ -15,9 +15,6 @@ h1 {
 	height: 300px;
 	background-color: var(--grayishblue);
 	margin: auto;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
 	font-size: 0.7rem;
 	border-radius: 5%;
 	padding: 20px;
@@ -28,17 +25,24 @@ h1 {
 	color: var(--neongreen);
 	padding: 10px;
 	letter-spacing: 7px;
+	text-align: center;
 }
 
 .popup_title {
 	color: var(--lightcyan);
 	text-align: center;
 	padding: 20px 0;
+	overflow: hidden;
+}
+
+.popup_title {
+	height: 130px;
 }
 
 .popup_break {
 	width: 100%;
 	display: flex;
+	padding-top: 20px;
 }
 
 .popup_breakelement {
@@ -53,7 +57,7 @@ h1 {
 
 .popup_breakline {
 	border: 0.5px solid grey;
-	width: 100%;
+	width: 75%;
 	height: 0;
 	margin: auto;
 }
@@ -72,10 +76,22 @@ h1 {
 }
 
 .popup_button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.popup_button .icon {
 	background-color: var(--neongreen);
 	border: none;
-	border-radius: 100%;
 	padding: 20px;
+	border-radius: 100%;
 	position: relative;
-	top: 30px;
+	top: 35px;
+	cursor: pointer;
+}
+
+.popup_button:hover {
+	transform: scale(1.1);
+	transition-duration: 1s;
 }

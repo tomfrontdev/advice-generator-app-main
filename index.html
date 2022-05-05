@@ -11,14 +11,10 @@
 			rel="stylesheet"
 		/>
 		<link rel="stylesheet" href="styles/reset.css" />
+		<link rel="stylesheet" href="styles/mobile.css" />
 		<link
 			rel="stylesheet"
-			media="(max-width: 375px)"
-			href="styles/mobile.css"
-		/>
-		<link
-			rel="stylesheet"
-			media="(min-width: 376px)"
+			media="(min-width: 1440px)"
 			href="styles/desktop.css"
 		/>
 
@@ -27,10 +23,18 @@
 	<body>
 		<main class="popup">
 			<h1 class="popup_advice">ADVICE #<span></span></h1>
-			<p class="popup_title">
-				"It is easy to sit up and take notice, what's difficult is
-				getting up and taking action."
-			</p>
+			<div class="popup_title">
+				<p>
+					<!-- Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					Commodi, facere quae. Dolore enim temporibus, quibusdam
+					optio provident aut assumenda deserunt consequuntur
+					laboriosam natus debitis repellat necessitatibus consectetur
+					quisquam exercitationem eius distinctio. Atque quod commodi
+					voluptatibus, praesentium ducimus animi explicabo dicta
+					maxime exercitationem, ipsa tempora numquam earum quasi unde
+					ratione quidem! -->
+				</p>
+			</div>
 			<div class="popup_break">
 				<div class="popup_breakline"></div>
 				<div class="popup_middlelines">
@@ -39,13 +43,15 @@
 				</div>
 				<div class="popup_breakline"></div>
 			</div>
-			<button class="popup_button">
-				<img
-					src="images/icon-dice.svg"
-					class="popup_image"
-					alt="Thank You"
-				/>
-			</button>
+			<div class="popup_button">
+				<button class="popup_button icon">
+					<img
+						src="images/icon-dice.svg"
+						class="popup_image"
+						alt="Thank You"
+					/>
+				</button>
+			</div>
 		</main>
 		<script src="script.js"></script>
 	</body>

@@ -1,0 +1,8 @@
+.popup {
+	width: 625px;
+	background-color: var(--grayishblue);
+	margin: auto;
+	font-size: 0.7rem;
+	border-radius: 5%;
+	padding: 20px;
+}
